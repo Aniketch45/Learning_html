@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<link href="mystyle1.css" rel="stylesheet" type="text/css">-->
+    <style>
+    .ul1{
+        width:100px;
+        height: 50px;
+        list-style-type:none;
+        font-weight: 900;
+    
+    }
+    .li1{
+        padding: 10px;
+        border:2px solid red;
+        border-radius: 5px;
+        margin-bottom: 10px;
+     }
+     .li1:nth-child(odd){
+        background-color: lightslategray;
+        color:white;
+     }
+     .li1:nth-child(even){
+        background-color: bisque;
+        color:darkblue;
+     }
+     .li1:first-child{
+        background-color: aquamarine;
+        color:yellow;
+     }
+     .li1:last-child{
+        background-color: aquamarine;
+        color: black;
+     }
+     .li1:nth-child(4){
+        background-color: lightcoral;
+     }
+     .li1:hover{
+        transform: rotate(10deg) scale(1.2) ;
+        
+
+     } 
+   </style>
+</head>
+<body>
+    <ul class="ul1">
+        <li class="li1">Item 1</li>
+        <li class="li1">Item 2</li>
+        <li class="li1">Item 3</li>
+        <li class="li1">Item 4</li>
+        <li class="li1">Item 5</li>
+        <li class="li1">Item 6</li>
+        <li class="li1">Item 7</li>
+        <li class="li1">Item 8</li>
+    </ul>
+</body>
+</html>

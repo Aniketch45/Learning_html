@@ -1,0 +1,61 @@
+        @media (min-width: 320px) 
+        {
+            body{
+                background-color: red;
+                color: white;
+            }
+            h3{
+                size: 100px;
+            }
+            .img1{
+                width:100px;
+                height: 150px;
+            }
+        }                   
+        @media (min-width:600px){
+            body{
+                background-color: green;
+                color: yellow;
+            }
+            h3{
+                size: 200px;
+            }
+             .img1{
+                width:600px;
+                height:600px;
+                transform: rotate(20deg);
+            }
+
+        }
+        @media (min-width:850px){
+            body{
+                background-color: blue;
+
+            }
+            .img1{
+                transform: rotate(30deg);
+            }
+        }
+         @media (min-width:1024px){
+            body{
+                background-color: magenta;
+                color: black;
+            }
+            h3{
+                size: 50px;
+            } 
+            .img1{
+                width:800px;
+                height:800px;
+                transform: rotate(40deg);
+            }
+         }
+         @media(min-width:1224px){
+            body{
+                background-color: chartreuse;
+
+            }
+            .img1{
+                transform: rotate(60deg);
+            }
+         }

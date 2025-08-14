@@ -1,0 +1,23 @@
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    transition: transform 5s ease;
+}
+.box1:hover{
+    transform: translate(150px,150px);
+}
